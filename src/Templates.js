@@ -312,9 +312,7 @@ function FILTER_WILDCARD_IMPORT_IDENTIFIER(wildcardImport={}) {
 
 				propertyName !== '__GetDependency__' &&
 				propertyName !== '__Rewire__' &&
-				propertyName !== '__ResetDependency__' &&
-
-				propertyName !== '__RewireAPI__';
+				propertyName !== '__ResetDependency__'
 	});
 
 	return validPropertyNames.reduce(
